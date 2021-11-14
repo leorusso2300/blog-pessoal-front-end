@@ -5,6 +5,8 @@ import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component'
 import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { MenuComponent } from './menu/menu.component';
+import { RodapeComponent } from './rodape/rodape.component';
 import { TemaComponent } from './tema/tema.component';
 
 
@@ -12,13 +14,15 @@ import { TemaComponent } from './tema/tema.component';
 
 const routes: Routes = [
 
-{path: '',redirectTo: 'entrar', pathMatch: 'full'},
-{path: 'entrar', component: EntrarComponent},
-{path: 'cadastrar', component: CadastrarComponent},
-{path: 'inicio', component: InicioComponent},
-{path: 'tema', component: TemaComponent},
-{path: 'tema-edit/:id', component: TemaEditComponent},
-{path: 'tema-delete/:id', component: TemaDeleteComponent}
+  { path: '', redirectTo: 'entrar', pathMatch: 'full' },
+  { path: 'entrar', component: EntrarComponent },
+  { path: 'menu', component: MenuComponent },
+  { path: 'rodape', component: RodapeComponent },
+  { path: 'cadastrar', component: CadastrarComponent },
+  { path: 'inicio', component: InicioComponent },
+  { path: 'tema', component: TemaComponent },
+  {path: 'tema-edit/:id', component: TemaEditComponent},
+  {path: 'tema-delete/:id', component: TemaDeleteComponent}
 
 
 

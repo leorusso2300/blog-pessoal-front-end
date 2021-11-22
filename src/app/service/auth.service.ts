@@ -19,7 +19,7 @@ export class AuthService {
   }
 
   cadastrar(user: User): Observable<User>{
-    return this.http.post<User>('https://serene-agnesi-c40b5d.netlify.app/usuarios/cadastrar', user)
+    return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', user)
   }
   getByIdUser(id: number): Observable<User>{
     return this.http.get<User>(`http://localhost:8080/usuarios/${id}`)

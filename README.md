@@ -1,12 +1,7 @@
 <h1 align="CENTER">FRONT-END</h1>
    <br>
 
-   <p align="center">
-       <a href="https://github.com/RenToGen">
-        <img src="https://img.shields.io/github/last-commit/RenToGen/Back-End?color=black%20&label=Ultimo%20commit&logo=github&style=flat-square"/>
-        </a>
-        <img src="https://img.shields.io/github/contributors/RenToGen/Back-End?color=black%20&label=Contribuidores&logo=github&style=flat-square"/>
-        </p>
+
     
 ## :memo: Descrição
 Neste repostitório você ira se deparar com a maior parte dos processos de criação do Front-End do meu blog Pessoal. 
